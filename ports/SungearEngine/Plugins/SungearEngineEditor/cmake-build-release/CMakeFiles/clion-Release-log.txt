@@ -1,0 +1,21 @@
+/home/ilya/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/ilya/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -DCMAKE_TOOLCHAIN_FILE=/home/ilya/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S /home/ilya/pixelfield/SungearEngine/Plugins/SungearEngineEditor -B /home/ilya/pixelfield/SungearEngine/Plugins/SungearEngineEditor/cmake-build-release
+CMake Error at /home/ilya/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package):
+  By not providing "FindSungearEngine.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "SungearEngine", but CMake did not find one.
+
+  Could not find a package configuration file provided by "SungearEngine"
+  with any of the following names:
+
+    SungearEngineConfig.cmake
+    sungearengine-config.cmake
+
+  Add the installation prefix of "SungearEngine" to CMAKE_PREFIX_PATH or set
+  "SungearEngine_DIR" to a directory containing one of the above files.  If
+  "SungearEngine" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
