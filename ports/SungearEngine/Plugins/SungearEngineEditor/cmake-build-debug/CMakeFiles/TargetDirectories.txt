@@ -1,3 +1,0 @@
-/home/ilya/pixelfield/SungearEngine/Plugins/SungearEngineEditor/cmake-build-debug/CMakeFiles/SungearEngineEditor.dir
-/home/ilya/pixelfield/SungearEngine/Plugins/SungearEngineEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ilya/pixelfield/SungearEngine/Plugins/SungearEngineEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
